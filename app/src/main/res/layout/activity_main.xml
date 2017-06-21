@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.aimforthestars.MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/stars" />
+
+    <TextView
+        android:id="@+id/Aimtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFAB00"
+        android:textStyle="italic"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Aim for the stars and.." />
+
+    <TextView
+        android:id="@+id/Starstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFAB00"
+        android:textStyle="italic"
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="You will reach the sky !" />
+
+    <ImageView
+        android:id="@+id/ShootingStarimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Aimtxt"
+        android:paddingTop="16dp"
+        android:paddingLeft="8dp"
+        android:src="@drawable/star" />
+
+</RelativeLayout>
